@@ -1,4 +1,4 @@
-# GYM-REGN
+# MYGYM
 ### A registration form for gymnasium (gym in short). A simple and user friendly website. Primarly using for registration of interested candidate which further be used for providing feedback, schedule and monitoring health condition of candidate on daily basis.
 
 ## <a href="https://pinnacle20.github.io/mygym/"> -Check our here-</a>
