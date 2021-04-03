@@ -1,0 +1,150 @@
+
+        body {
+            background-image: url(assests/01_uenergy_hazmieh_mainstudio1_hr_0.jpg);
+            height: 1000px;
+
+        }
+
+        .logo {
+            float: left;
+            display: sticky;
+            box-sizing: border-box;
+
+            /* border: 2px solid blue; */
+            width: 20%;
+            height: 207px;
+            margin: 1px 57px;
+            text-align: center;
+        }
+
+        .logo img {
+            width: 90%;
+            border: 2px dotted white;
+            height: 100%;
+            border-radius: 30px;
+        }
+
+        .logo img:hover {
+            border: 5px solid blue;
+        }
+
+
+        .menu {
+            box-sizing: border-box;
+            display: inline-block;
+            /* border: 2px solid red; */
+            width: 400px;
+            height: 50px;
+            margin: 19px 43px;
+            padding: 12px 2px;
+            text-align: center;
+
+        }
+
+
+        .menu a {
+
+            text-decoration: none;
+            color: rgb(245, 244, 237);
+            margin: 7px;
+            font-size: 18px;
+
+        }
+
+        .menu a:hover {
+            background-color: grey;
+            border-radius: 24px;
+        }
+
+        .search {
+            box-sizing: border-box;
+            float: right;
+            /* border: 2px white solid; */
+            width: 25%;
+            height: 50px;
+            text-align: center;
+            margin: 18px;
+            padding: 6px;
+        }
+
+        .search input {
+            height: 25px;
+            border-radius: 24px;
+            width: 230px;
+            text-align: center;
+
+        }
+
+        .quote {
+            /* border: 2px solid blue; */
+            width: 818px;
+            margin: -1px 405px;
+            height: 120px;
+
+        }
+
+        .quote img {
+            width: 100%;
+            height: 100%;
+        }
+        
+        .regn {
+            display: inline-block;
+            color: white;
+            margin-left: 75px;
+            font-size: 30px;
+            margin-top: 26px;
+        }
+
+        form {
+            margin: 14px 58px;
+            list-style: none;
+
+        }
+
+        form input {
+            height: 31px;
+            width: 290px;
+            text-align: center;
+            border-radius: 18px;
+            margin: 3px;
+        }
+        
+        form select{
+            height: 35px;
+            width: 298px;
+            border-radius: 18px;
+            margin: 4px;
+            padding: 0px 93px;
+        }
+        .btn {
+            width: 100px;
+            height: 26px;
+            margin: 15px -14px;
+            border-radius: 11px;
+            background-color: aquamarine;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background-color: rgb(111, 223, 111);
+        }
+
+        .reset{
+            width: 100px;
+            height: 26px;
+            margin: 15px 139px;
+            border-radius: 11px;
+            background-color: aquamarine;
+            cursor: pointer;
+        }
+        .reset:hover{
+            background-color: rgb(245, 109, 109);
+        }
+
+        @media only screen and (max-width: 1180px) {
+            .quote {
+                display: none;
+            }
+        }
+    
