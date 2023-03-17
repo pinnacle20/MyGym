@@ -1,8 +1,8 @@
 
         body {
             background-image: url(assests/01_uenergy_hazmieh_mainstudio1_hr_0.jpg);
-            height: 1000px;
-
+            background-repeat: no-repeat;
+            background-attachment: fixed;
         }
 
         .logo {
@@ -10,10 +10,9 @@
             display: sticky;
             box-sizing: border-box;
 
-            /* border: 2px solid blue; */
             width: 20%;
             height: 207px;
-            margin: 1px 57px;
+            margin: 10px 57px;
             text-align: center;
         }
 
@@ -28,11 +27,9 @@
             border: 5px solid blue;
         }
 
-
         .menu {
             box-sizing: border-box;
             display: inline-block;
-            /* border: 2px solid red; */
             width: 400px;
             height: 50px;
             margin: 19px 43px;
@@ -43,7 +40,6 @@
 
 
         .menu a {
-
             text-decoration: none;
             color: rgb(245, 244, 237);
             margin: 7px;
@@ -53,7 +49,7 @@
 
         .menu a:hover {
             background-color: grey;
-            border-radius: 24px;
+            border-radius: 10px;
         }
 
         .search {
